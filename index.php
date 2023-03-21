@@ -1,3 +1,9 @@
+<!-- MILSTONE 2- inclusione file functions.php -->
+<?php include('functions.php');?> 
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +29,16 @@
 		    <button type="submit">Genera password</button>
 	   </form>
 
+       <!-- PASSWORD GENERATA -->
+
+       <?php if (isset($password)): ?>
+		    <h2>La tua password sicura:</h2>
+		         <p><?php echo $password; ?></p>
+	    <?php endif; ?>
+
 </div> 
+
+
     
 </body>
 </html>
