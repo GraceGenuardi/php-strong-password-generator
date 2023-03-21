@@ -9,8 +9,21 @@
 </head>
 <body>
 
-<h1>Strong Password Generator</h1>
-<h2>Genera una password sicura!</h2>
+    <h1>Strong Password Generator</h1>
+      <h2>Genera una password sicura!</h2>
+
+<!-- MILSTONE 1- CREARE FORM -->
+
+ <div class="form-password">
+
+       <form method="get" action="index.php">
+		    <label for="length"> <p>Lunghezza password:</p></label>
+		    <input type="number" name="length" id="length" min="8" max="50" value="8">
+		    <br><br>
+		    <button type="submit">Genera password</button>
+	   </form>
+
+</div> 
     
 </body>
 </html>

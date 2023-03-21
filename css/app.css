@@ -1,6 +1,7 @@
 body {
     background-color: #001632;
     text-align: center;
+    
 }
 
 h1{
@@ -13,3 +14,32 @@ h2{
     color: white;
     font-size: 40px;
 }
+
+p{
+    font-size: 30px;
+    
+}
+
+input{
+    width: 100px;
+}
+
+
+button {
+    width: 200px;
+    padding: 10px;
+    background-color:#0D6EFD ;
+    color: white;
+    font-size: 17px;
+}
+
+
+.form-password{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    
+   
+}
+
